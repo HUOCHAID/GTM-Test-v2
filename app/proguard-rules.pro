@@ -1,0 +1,1 @@
+-keep class com.quicksupport.market.apk.FirstStartTag { *; }
