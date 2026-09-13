@@ -1,4 +1,4 @@
-package com.quicksupport.apk;
+package com.quicksupport.market;
 
 import android.app.Activity;
 import android.os.Bundle;
