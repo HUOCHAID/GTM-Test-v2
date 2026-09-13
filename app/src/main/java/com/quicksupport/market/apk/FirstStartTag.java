@@ -1,4 +1,4 @@
-package com.quicksupport.market.apk;
+package com.quicksupport.market;
 
 import android.util.Log;
 import androidx.annotation.Keep;
