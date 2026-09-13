@@ -4,15 +4,15 @@ plugins {
 }
 
 android {
-    namespace 'com.quicksupport.market.apk'
-    compileSdk 36
+    namespace 'com.quicksupport.market'
+    compileSdk 35
 
     defaultConfig {
-        applicationId 'com.quicksupport.market.apk'
+        applicationId 'com.quicksupport.market'
         minSdk 23
-        targetSdk 36
+        targetSdk 35
         versionCode 1
-        versionName '1.0'
+        versionName '1.0-test'
     }
 
     buildTypes {
@@ -28,8 +28,8 @@ android {
 }
 
 dependencies {
-    implementation platform('com.google.firebase:firebase-bom:34.19.0')
+    implementation platform('com.google.firebase:firebase-bom:33.8.0')
     implementation 'com.google.firebase:firebase-analytics'
-    implementation 'com.google.android.gms:play-services-tagmanager:18.3.0'
+    implementation 'com.google.android.gms:play-services-tagmanager:18.0.4'
     implementation 'androidx.annotation:annotation:1.9.1'
 }
